@@ -15,4 +15,4 @@ const connection = mysqlConnection.connect((err) => {
   }
 });
 
-module.exports = connection;
+module.exports = mysqlConnection;
